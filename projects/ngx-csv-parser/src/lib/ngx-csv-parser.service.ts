@@ -8,14 +8,7 @@ import { NgxCSVParserError } from './_model/ngx-csv-parser-error.interface';
 export class NgxCsvParser {
 
     constructor() {
-        console.log(`
-      *****************************************************
-      ***      For Custom Software/Web development      ***
-      *** Reach out to us at contact@developershive.com ***
-      ***  Support us https://patreon.com/tofiqquadri/  ***
-      ***     Visit us at https://developershive.com    ***
-      *****************************************************
-    `);
+        console.log();
     }
 
     private defaultCSVParserConfig = {
